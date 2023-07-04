@@ -1,0 +1,46 @@
+html{
+    scroll-behavior: smooth !important;
+}
+.span.sk__menu-icon {
+    font-size: 18px;
+}
+
+.plusCounter{
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+}
+
+
+.mcurtain-left {
+	left: 0;
+	background-image: url(../../assets/images/curtain-background-left.svg);
+}
+
+.mcurtain-center {
+	background-image: url(../../assets/images/iny_logo_lighten_v.png);
+    background-size: 30%;
+	left: 33.333%;
+}
+
+.mcurtain-right {
+	background-image: url(../../assets/images/curtain-background-right.svg);
+	left: 66.666%;
+}
+
+.footer-top {
+    padding-bottom: 30px;
+}
+
+
+@media(max-width: 576px){
+    .plusCounter{
+        font-weight: 600;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .mcurtain-center {
+        background-size: 40%;
+    }
+}
