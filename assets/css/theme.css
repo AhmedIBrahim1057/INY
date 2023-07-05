@@ -7054,7 +7054,7 @@ section.sk__parallax-background-section.sk__contact-us {
 
 .sk__rings-section {
 	overflow-x: hidden;
-	background-image: url(../../assets/images/section-rings-background.svg);
+	/* background-image: url(../../assets/images/section-rings-background.svg); */
 }
 
 .ring-l-container {

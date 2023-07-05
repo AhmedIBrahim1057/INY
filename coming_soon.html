@@ -48,6 +48,21 @@
 			width: 300px !important; 
 			height: auto !important;
 		}
+		.mcurtain-left {
+			left: 0;
+			background-image: url(./assets/images/curtain-background-left.svg);
+		}
+
+		.mcurtain-center {
+			background-image: url(./assets/images/iny_logo_lighten_v.png);
+			background-size: 30%;
+			left: 33.333%;
+		}
+
+		.mcurtain-right {
+			background-image: url(./assets/images/curtain-background-right.svg);
+			left: 66.666%;
+		}
 		@media (max-width: 500px) {
 			.logoStyle{
 				width: 200px !important; 
@@ -61,6 +76,13 @@
 <body class="sk__coming-soon-page dark-shade-1-bg static-simple-footer">
 
 	<main id="primary" class="site-main">
+
+		<!-- Master Curtain Effect -->
+		<section class="sk__master-curtain">
+			<!-- <div class="mcurtain mcurtain-left"></div> -->
+			<div class="mcurtain mcurtain-center"></div>
+			<!-- <div class="mcurtain mcurtain-right"></div> -->
+		</section>
 
 		<div class="sk__logo-no-menu sk__fade-in-3 text-center mt-md-5">
 			<img id="sk__main-logo" alt="INY Logo." src="assets/images/iny_logo_lighten_h.png" class="logoStyle" >
