@@ -1928,7 +1928,12 @@ span.sk__menu-icon:not(.accented):not(.sk__gradient-back-v1) span[class^="icon-"
 		-webkit-transform: scaleY(0);
 		    -ms-transform: scaleY(0);
 		        transform: scaleY(0);
-		background: rgba(255,255,255,0.1);
+		/* background: rgba(255,255,255,0.1); */
+		background: rgb(129,21,255, 0.1);
+		background: -o-linear-gradient(left, rgba(205,78,43,1) 0%,  rgba(74,64,139,1) 100%, 0.1);
+		background: -webkit-gradient(linear, left top, right top, from(rgba(205,78,43,1)),  to(rgba(74,64,139,1)));
+		background: linear-gradient(90deg, rgba(205,78,43,1) 0%,  rgba(74,64,139,1) 100%, 0.1);
+		opacity: .5;
 	}
 	.navbar-nav > li.menu-item-has-children > a.nav-link:before {
 		width: calc(100% + 9px);
@@ -4960,7 +4965,7 @@ span.numbers-deco {
 }
 
 .about-right-image {
-	background-image: url(../../assets/images/about-us.webp);
+	background-image: url(../../assets/images/about.jpg);
 }
 
 .custom-about-us-p2 {
