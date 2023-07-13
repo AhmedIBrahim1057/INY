@@ -32,6 +32,9 @@ html{
     padding-bottom: 30px;
 }
 
+.customhead{
+    font-size: 45px !important;
+}
 
 @media(max-width: 576px){
     .plusCounter{
@@ -42,5 +45,9 @@ html{
 
     .mcurtain-center {
         background-size: 40%;
+    }
+    
+    .customhead{
+        font-size: 35px !important;
     }
 }
