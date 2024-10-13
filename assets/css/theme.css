@@ -1085,7 +1085,7 @@ span.sk__menu-icon:not(.accented):not(.sk__gradient-back-v1) span[class^="icon-"
  * there are only additions & overrides
  */
 
-@media all and (max-width: 1899px) { /* menu crossover (-1) */
+@media all and (max-width: 1299px) { /* menu crossover (-1) */
 
 	.sk__mobile-menu-bar {
 		-webkit-transition: all 0.4s ease 0s;
@@ -1609,7 +1609,7 @@ span.sk__menu-icon:not(.accented):not(.sk__gradient-back-v1) span[class^="icon-"
  * Mobile Menu - LARGE Only
  * ------------------------
  */
-@media all and (min-width: 992px) and (max-width: 1900px) {
+@media all and (min-width: 992px) and (max-width: 1299px) {
 
 	body.sk__scrolling-started .sk__mobile-menu-bar {
 		height: 72px;
@@ -1672,7 +1672,7 @@ span.sk__menu-icon:not(.accented):not(.sk__gradient-back-v1) span[class^="icon-"
  * ------------------------------
  */
 /*  @media all and (min-width: 1921px) and (max-width: 1999px) { menu crossover (-1) if disableAt is 1923 or higher. The value goes in max-width */
-@media all and (min-width: 1899px) and (max-width: 1921px) { /* menu crossover (-1) if disableAt is lower than 1923. The value goes in min-width */
+@media all and (min-width: 1299px) and (max-width: 1321px) { /* menu crossover (-1) if disableAt is lower than 1923. The value goes in min-width */
 	
 	.sk__mobile-main-logo img {
 		height: 100px;
@@ -1697,7 +1697,7 @@ span.sk__menu-icon:not(.accented):not(.sk__gradient-back-v1) span[class^="icon-"
  * Mobile menu trigger on true hover-capable devices only
  * aka, avoid menu hamburger trigger being stuck in hover
  */
-@media (hover: hover) and (max-width: 1899px) { /* menu crossover (-1) */
+@media (hover: hover) and (max-width: 1299px) { /* menu crossover (-1) */
 	.hc-nav-trigger:not(.toggle-open):hover span {
 		-webkit-transform: scaleX(.8);
 		    -ms-transform: scaleX(.8);
@@ -1722,7 +1722,7 @@ span.sk__menu-icon:not(.accented):not(.sk__gradient-back-v1) span[class^="icon-"
  * ============
  */
 
-@media all and (min-width: 1900px) { /* menu crossover */
+@media all and (min-width: 1300px) { /* menu crossover */
 
 	nav li a {
 		display: inline-block !important;
